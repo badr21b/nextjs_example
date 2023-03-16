@@ -6,20 +6,13 @@ import Layout from '../../components/layout';
 import variables from '../../styles/variables.module.scss'
 
 
-export default function FirstPost() {
+export default function AnotherPost() {
     return (
         <Layout>
             <Head>
-                <title>Here Title of the First Post</title>
+                <title>Another Post</title>
             </Head>
-            <Script
-                src="https://connect.facebook.net/en_US/sdk.js"
-                strategy="lazyOnload"
-                onLoad={() =>
-                    console.log(`script loaded correctly, window.FB has been populated`)
-                }
-            />
-            <h1>First Post</h1>
+            <h1>Another Post</h1>
             <h2>
                 <Link href="/">Back to home</Link>
             </h2>
